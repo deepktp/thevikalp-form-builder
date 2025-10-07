@@ -9,7 +9,7 @@ import * as icons from '../icons';
 
 GlobalRegistry.registerDesignerIcons(icons);
 
-export const Designer: React.FC<IDesignerProps> = (props) => {
+export const Designer: React.FC<IDesignerProps> = ({ prefixCls = 'dn-', theme = 'light', ...props }) => {
   const engine = useDesigner();
   const ref = useRef<Engine>();
   useEffect(() => {
@@ -42,9 +42,4 @@ export const Designer: React.FC<IDesignerProps> = (props) => {
       </DesignerEngineContext.Provider>
     </Layout>
   );
-};
-
-Designer.defaultProps = {
-  prefixCls: 'dn-',
-  theme: 'light',
 };

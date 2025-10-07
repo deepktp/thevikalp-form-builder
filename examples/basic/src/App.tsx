@@ -69,7 +69,7 @@ function App() {
   };
 
   useEffect(() => {
-    GlobalRegistry.setDesignerLanguage('zh-cn');
+    GlobalRegistry.setDesignerLanguage('en-us');
   }, []);
 
   const components: IDesignerComponents = {

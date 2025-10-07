@@ -24,7 +24,7 @@ export type IDesignerToolsWidgetProps = {
 };
 
 export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
-  observer((props) => {
+  observer(({ use = ['HISTORY', 'CURSOR', 'SCREEN_TYPE'], ...props }) => {
     const screen = useScreen();
     const cursor = useCursor();
     const workbench = useWorkbench();
@@ -36,7 +36,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
       styleFun: genDesignerToolsWidgetStyle,
     });
     const renderHistoryController = () => {
-      if (!props.use.includes('HISTORY')) return null;
+      if (!use.includes('HISTORY')) return null;
       return (
         <Button.Group size="small" style={{ marginRight: 20 }}>
           <Button
@@ -63,7 +63,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
 
     const renderCursorController = () => {
       if (workbench.type !== 'DESIGNABLE') return null;
-      if (!props.use.includes('CURSOR')) return null;
+      if (!use.includes('CURSOR')) return null;
       return (
         <Button.Group size="small" style={{ marginRight: 20 }}>
           <Button
@@ -89,7 +89,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
     };
 
     const renderResponsiveController = () => {
-      if (!props.use.includes('SCREEN_TYPE')) return null;
+      if (!use.includes('SCREEN_TYPE')) return null;
       if (screen.type !== ScreenType.Responsive) return null;
       return (
         <Fragment>
@@ -140,7 +140,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
     };
 
     const renderScreenTypeController = () => {
-      if (!props.use.includes('SCREEN_TYPE')) return null;
+      if (!use.includes('SCREEN_TYPE')) return null;
       return (
         <Button.Group size="small" style={{ marginRight: 20 }}>
           <Button
@@ -175,7 +175,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
     };
 
     const renderMobileController = () => {
-      if (!props.use.includes('SCREEN_TYPE')) return null;
+      if (!use.includes('SCREEN_TYPE')) return null;
       if (screen.type !== ScreenType.Mobile) return;
       return (
         <Button
@@ -206,7 +206,3 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
       </div>,
     );
   });
-
-DesignerToolsWidget.defaultProps = {
-  use: ['HISTORY', 'CURSOR', 'SCREEN_TYPE'],
-};

@@ -25,13 +25,13 @@ export interface IResourceWidgetProps {
 }
 
 export const ResourceWidget: React.FC<IResourceWidgetProps> = observer(
-  (props) => {
+  ({ defaultExpand = true, ...props }) => {
     const prefix = usePrefix('resource');
     const { hashId, wrapSSR } = useCssInJs({
       prefix,
       styleFun: genResourceWidgetStyle,
     });
-    const [expand, setExpand] = useState(props.defaultExpand);
+    const [expand, setExpand] = useState(defaultExpand);
     const renderNode = (source: IResource) => {
       const { node, icon, title, thumb, span } = source;
       return (
@@ -116,7 +116,3 @@ export const ResourceWidget: React.FC<IResourceWidgetProps> = observer(
     );
   },
 );
-
-ResourceWidget.defaultProps = {
-  defaultExpand: true,
-};

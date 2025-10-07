@@ -73,13 +73,13 @@ export interface IResourceWidgetProps {
 }
 
 export const ResourceWidget: React.FC<IResourceWidgetProps> = observer(
-  (props) => {
+  ({ defaultExpand = true, ...props }) => {
     const prefix = 'dn-resource';
     const { hashId, wrapSSR } = useCssInJs({
       prefix,
       styleFun: genResourceWidgetStyle,
     });
-    const [expand, setExpand] = useState(props.defaultExpand);
+    const [expand, setExpand] = useState(defaultExpand);
 
     const sources = props.sources.reduce<IResource[]>((buf, source) => {
       if (isResourceList(source)) {
@@ -141,7 +141,3 @@ export const ResourceWidget: React.FC<IResourceWidgetProps> = observer(
     );
   },
 );
-
-ResourceWidget.defaultProps = {
-  defaultExpand: true,
-};

@@ -1,5 +1,5 @@
 import { getNpmCDNRegistry } from '../registry';
-import { globalThisPolyfill } from '@trionesdev/designable-shared';
+import { globalThisPolyfill } from '@thevikalp/designable-shared';
 export interface ILoadScriptProps {
   package: string;
   entry: string;

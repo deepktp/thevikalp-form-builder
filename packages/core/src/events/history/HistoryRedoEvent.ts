@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@trionesdev/designable-shared';
+import { ICustomEvent } from '@thevikalp/designable-shared';
 import { AbstractHistoryEvent } from './AbstractHistoryEvent';
 
 export class HistoryUndoEvent

@@ -11,7 +11,7 @@ import {
   DragStopEvent,
   ViewportScrollEvent,
 } from '../events';
-import { Point } from '@trionesdev/designable-shared';
+import { Point } from '@thevikalp/designable-shared';
 
 export const useDragDropEffect = (engine: Engine) => {
   engine.subscribeTo(DragStartEvent, (event) => {

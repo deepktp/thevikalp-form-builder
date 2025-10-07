@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@trionesdev/designable-shared';
+import { ICustomEvent } from '@thevikalp/designable-shared';
 import { AbstractMutationNodeEvent } from './AbstractMutationNodeEvent';
 
 export class InsertBeforeEvent

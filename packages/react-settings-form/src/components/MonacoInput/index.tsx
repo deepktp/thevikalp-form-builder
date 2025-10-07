@@ -6,11 +6,11 @@ import {
   usePrefix,
   useTheme,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 import { Tooltip } from 'antd';
 import { parseExpression, parse } from '@babel/parser';
-import { uid } from '@trionesdev/designable-shared';
+import { uid } from '@thevikalp/designable-shared';
 import { format } from './format';
 import cls from 'classnames';
 // import './styles.less'

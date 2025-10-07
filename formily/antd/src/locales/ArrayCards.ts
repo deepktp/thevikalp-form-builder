@@ -1,4 +1,4 @@
-import { createLocales } from '@trionesdev/designable-core';
+import { createLocales } from '@thevikalp/designable-core';
 import { Card } from './Card';
 
 export const ArrayCards = createLocales(Card, {

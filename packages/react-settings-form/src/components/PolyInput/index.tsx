@@ -4,7 +4,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import cls from 'classnames';
 import { genPolyInputStyle } from './styles';
 // import './styles.less'

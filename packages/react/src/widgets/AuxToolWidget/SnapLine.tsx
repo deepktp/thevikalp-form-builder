@@ -6,8 +6,8 @@ import {
   useToken,
 } from '../../hooks';
 import { observer } from '@formily/reactive-react';
-import { CursorStatus } from '@trionesdev/designable-core';
-import { Rect } from '@trionesdev/designable-shared';
+import { CursorStatus } from '@thevikalp/designable-core';
+import { Rect } from '@thevikalp/designable-shared';
 import cls from 'classnames';
 
 export const SnapLine: React.FC = observer(() => {

@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import {
   useNodeIdProps,
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   DnFC,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { useDropTemplate } from '../../hooks';
 import { createVoidFieldSchema } from '../Field';

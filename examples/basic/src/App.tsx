@@ -3,7 +3,7 @@ import {
   GlobalRegistry,
   KeyCode,
   Shortcut,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import { useEffect, useMemo } from 'react';
 import {
   ComponentTreeWidget,
@@ -21,7 +21,7 @@ import {
   ViewToolsWidget,
   Workspace,
   WorkspacePanel,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import {
   ArrayCards,
   ArrayTable,
@@ -34,9 +34,9 @@ import {
   Card,
   FormGrid,
   Space
-} from '@trionesdev/designable-formily-antd';
-import { SettingsForm } from '@trionesdev/designable-react-settings-form';
-import { transformToSchema } from '@trionesdev/designable-formily-transformer';
+} from '@thevikalp/designable-formily-antd';
+import { SettingsForm } from '@thevikalp/designable-react-settings-form';
+import { transformToSchema } from '@thevikalp/designable-formily-transformer';
 import { Button } from 'antd';
 import { PreviewWidget } from './PreviewWidget';
 

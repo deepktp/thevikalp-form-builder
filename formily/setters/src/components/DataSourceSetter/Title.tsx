@@ -6,7 +6,7 @@ import {
   TextWidget,
   usePrefix,
   useToken,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { INodeItem, ITreeDataSource } from './types';
 import { traverseTree } from './shared';
 import cls from 'classnames';

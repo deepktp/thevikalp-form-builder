@@ -9,7 +9,7 @@ import {
   useTheme,
   TextWidget,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { DataSettingPanel } from './DataSettingPanel';
 import { TreePanel } from './TreePanel';
 import { transformDataToValue, transformValueToData } from './shared';

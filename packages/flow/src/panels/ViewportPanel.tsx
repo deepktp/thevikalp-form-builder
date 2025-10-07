@@ -1,4 +1,4 @@
-import { useCssInJs } from '@trionesdev/designable-react';
+import { useCssInJs } from '@thevikalp/designable-react';
 import { genViewportPanelStyle } from './styles';
 import React, { FC } from 'react';
 import cls from 'classnames';

@@ -7,13 +7,13 @@ import {
   TextWidget,
   IconWidget,
   useToken,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { Title } from './Title';
 import { Header } from './Header';
 import { traverseTree } from './shared';
 import { ITreeDataSource, INodeItem } from './types';
 // import './styles.less'
-import { GlobalRegistry } from '@trionesdev/designable-core';
+import { GlobalRegistry } from '@thevikalp/designable-core';
 import cls from 'classnames';
 
 const limitTreeDrag = ({ dropPosition }) => {

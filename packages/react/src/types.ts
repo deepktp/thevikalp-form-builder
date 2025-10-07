@@ -1,5 +1,5 @@
 import React from 'react';
-import { Engine, IResource, IBehavior } from '@trionesdev/designable-core';
+import { Engine, IResource, IBehavior } from '@thevikalp/designable-core';
 
 export interface IDesignerLayoutProps {
   children?: React.ReactNode;

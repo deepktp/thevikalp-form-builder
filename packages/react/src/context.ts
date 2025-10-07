@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { TreeNode, Engine } from '@trionesdev/designable-core';
+import { TreeNode, Engine } from '@thevikalp/designable-core';
 import {
   IDesignerLayoutContext,
   IWorkspaceContext,

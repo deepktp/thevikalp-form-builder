@@ -7,7 +7,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { FlexStyleSetter } from '../FlexStyleSetter';
 import cls from 'classnames';
 import { genDisplayStyleSetterStyle } from './styles';

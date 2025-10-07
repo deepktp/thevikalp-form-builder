@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "clean": "lerna clean",
+    "example:basic": "yarn workspace basic run dev",
     "check:types": "tsc --project tsconfig.json --noEmit",
     "build": "lerna run build",
     "preversion": "yarn run build",
@@ -25,5 +26,6 @@
     "eslint-plugin-prettier": "^5.1.3",
     "lerna": "^8.1.9",
     "prettier": "^3.2.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }

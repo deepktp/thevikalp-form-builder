@@ -6,11 +6,11 @@ import {
   useToken,
 } from '../../hooks';
 import { observer } from '@formily/reactive-react';
-import { CursorStatus } from '@trionesdev/designable-core';
+import { CursorStatus } from '@thevikalp/designable-core';
 import {
   ILineSegment,
   calcRectOfAxisLineSegment,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 import cls from 'classnames';
 
 export const SpaceBlock: React.FC = observer(() => {

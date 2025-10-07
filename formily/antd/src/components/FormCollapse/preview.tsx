@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import {
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
   TreeNodeWidget,
   DnFC,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { toArr } from '@formily/shared';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { useDropTemplate } from '../../hooks';

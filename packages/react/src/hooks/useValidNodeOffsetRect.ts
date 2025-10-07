@@ -3,8 +3,8 @@ import {
   TreeNode,
   CursorStatus,
   CursorDragType,
-} from '@trionesdev/designable-core';
-import { LayoutObserver, Rect } from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-core';
+import { LayoutObserver, Rect } from '@thevikalp/designable-shared';
 import { useViewport } from './useViewport';
 import { useDesigner } from './useDesigner';
 

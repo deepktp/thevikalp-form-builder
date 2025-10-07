@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@trionesdev/designable-core';
+import { GlobalRegistry } from '@thevikalp/designable-core';
 import zhCN from './zh-CN';
 import enUS from './en-US';
 import koKR from './ko-KR';

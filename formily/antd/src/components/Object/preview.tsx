@@ -1,6 +1,6 @@
 import React from 'react';
-import { createBehavior, createResource } from '@trionesdev/designable-core';
-import { DnFC } from '@trionesdev/designable-react';
+import { createBehavior, createResource } from '@thevikalp/designable-core';
+import { DnFC } from '@thevikalp/designable-react';
 import { createFieldSchema } from '../Field';
 import { Container } from '../../common/Container';
 import { AllLocales } from '../../locales';

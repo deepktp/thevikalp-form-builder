@@ -1,4 +1,4 @@
-import { EventDriver } from '@trionesdev/designable-shared';
+import { EventDriver } from '@thevikalp/designable-shared';
 import { Engine } from '../models/Engine';
 import { MouseMoveEvent } from '../events';
 export class MouseMoveDriver extends EventDriver<Engine> {

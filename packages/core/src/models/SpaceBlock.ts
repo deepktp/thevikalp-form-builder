@@ -3,7 +3,7 @@ import {
   calcDistanceOfSnapLineToEdges,
   LineSegment,
   Rect,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 import { SnapLine } from './SnapLine';
 import { TransformHelper } from './TransformHelper';
 import { TreeNode } from './TreeNode';

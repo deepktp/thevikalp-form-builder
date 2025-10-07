@@ -1,7 +1,7 @@
-# @trionesdev/designable-core
+# @thevikalp/designable-core
 
-[![NPM version](https://img.shields.io/npm/v/@trionesdev/designable-core.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-core)
-[![NPM downloads](http://img.shields.io/npm/dm/@trionesdev/designable-core.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-core)
+[![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-core.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-core)
+[![NPM downloads](http://img.shields.io/npm/dm/@thevikalp/designable-core.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-core)
 
 ## Install
 

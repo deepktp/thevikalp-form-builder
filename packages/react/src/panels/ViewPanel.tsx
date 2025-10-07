@@ -3,11 +3,11 @@ import {
   TreeNode,
   ITreeNode,
   WorkbenchTypes,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import { observer } from '@formily/reactive-react';
 import { useTree, useWorkbench } from '../hooks';
 import { Viewport } from '../containers';
-import { requestIdle } from '@trionesdev/designable-shared';
+import { requestIdle } from '@thevikalp/designable-shared';
 
 export interface IViewPanelProps {
   type: WorkbenchTypes;

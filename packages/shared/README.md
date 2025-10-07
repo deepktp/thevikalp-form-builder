@@ -1,7 +1,7 @@
-# @trionesdev/designable-shared
+# @thevikalp/designable-shared
 
-[![NPM version](https://img.shields.io/npm/v/@trionesdev/designable-shared.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-shared)
-[![NPM downloads](http://img.shields.io/npm/dm/@trionesdev/designable-shared.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-shared)
+[![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-shared.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-shared)
+[![NPM downloads](http://img.shields.io/npm/dm/@thevikalp/designable-shared.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-shared)
 
 ## Install
 

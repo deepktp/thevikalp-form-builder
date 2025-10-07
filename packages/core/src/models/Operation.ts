@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 
 export interface IOperation {
   tree?: ITreeNode;

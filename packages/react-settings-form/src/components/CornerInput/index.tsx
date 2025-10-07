@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useCssInJs, usePrefix } from '@trionesdev/designable-react';
+import { useCssInJs, usePrefix } from '@thevikalp/designable-react';
 import cls from 'classnames';
 import { genCornerInputStyle } from './styles';
 

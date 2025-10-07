@@ -6,11 +6,11 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 import { useScreen, useDesigner, usePrefix, useCssInJs } from '../../hooks';
 import { IconWidget } from '../../widgets';
 import { ResizeHandle, ResizeHandleType } from './handle';

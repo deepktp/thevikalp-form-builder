@@ -1,4 +1,4 @@
-import { createLocales } from '@trionesdev/designable-core';
+import { createLocales } from '@thevikalp/designable-core';
 
 export const Upload = {
   'zh-CN': {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { createBehavior, createResource } from '@trionesdev/designable-core';
-import { DnFC, useCssInJs } from '@trionesdev/designable-react';
+import { createBehavior, createResource } from '@thevikalp/designable-core';
+import { DnFC, useCssInJs } from '@thevikalp/designable-react';
 import { createVoidFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';
 import { AllLocales } from '../../locales';

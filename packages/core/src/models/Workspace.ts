@@ -6,7 +6,7 @@ import {
   uid,
   ICustomEvent,
   EventContainer,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 import {
   HistoryGotoEvent,
   HistoryRedoEvent,

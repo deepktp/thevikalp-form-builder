@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { TextWidget, usePrefix, useToken } from '@trionesdev/designable-react';
+import { TextWidget, usePrefix, useToken } from '@thevikalp/designable-react';
 import { Menu } from 'antd';
-import { MonacoInput } from '@trionesdev/designable-react-settings-form';
+import { MonacoInput } from '@thevikalp/designable-react-settings-form';
 import { isPlainObj, reduce } from '@formily/shared';
 import { FieldProperties } from './properties';
 import cls from 'classnames';

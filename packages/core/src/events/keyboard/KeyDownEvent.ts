@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@trionesdev/designable-shared';
+import { ICustomEvent } from '@thevikalp/designable-shared';
 import { AbstractKeyboardEvent } from './AbstractKeyboardEvent';
 
 export class KeyDownEvent

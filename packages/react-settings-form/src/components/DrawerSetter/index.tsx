@@ -6,7 +6,7 @@ import {
   IconWidget,
   usePrefix,
   useTreeNode,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { Button, ButtonProps } from 'antd';
 import cls from 'classnames';
 // import './styles.less'

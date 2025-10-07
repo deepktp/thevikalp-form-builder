@@ -1,4 +1,4 @@
-import { TreeNode } from '@trionesdev/designable-core';
+import { TreeNode } from '@thevikalp/designable-core';
 import { useDesigner } from './useDesigner';
 import { useTreeNode } from './useTreeNode';
 

@@ -15,8 +15,8 @@
     "downlevelIteration": true,
     "baseUrl": "./",
     "allowSyntheticDefaultImports": true,
-//    "paths": {
-//      "@trionesdev/*": ["../*/src"]
-//    }
+    "paths": {
+      "@thevikalp/*": ["../*/src"]
+    }
   }
 }

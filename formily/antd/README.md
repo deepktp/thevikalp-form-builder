@@ -1,7 +1,7 @@
-# @trionesdev/designable-formily-antd
+# @thevikalp/designable-formily-antd
 
-[![NPM version](https://img.shields.io/npm/v/@trionesdev/designable-formily-antd.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-formily-antd)
-[![NPM downloads](http://img.shields.io/npm/dm/@trionesdev/designable-formily-antd.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-formily-antd)
+[![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-formily-antd.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-formily-antd)
+[![NPM downloads](http://img.shields.io/npm/dm/@thevikalp/designable-formily-antd.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-formily-antd)
 
 ## Install
 

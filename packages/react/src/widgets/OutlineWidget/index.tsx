@@ -10,9 +10,9 @@ import {
 import { observer } from '@formily/reactive-react';
 import { OutlineTreeNode } from './OutlineNode';
 import { Insertion } from './Insertion';
-import { TreeNode, Viewport } from '@trionesdev/designable-core';
+import { TreeNode, Viewport } from '@thevikalp/designable-core';
 import { NodeContext } from './context';
-import { globalThisPolyfill } from '@trionesdev/designable-shared';
+import { globalThisPolyfill } from '@thevikalp/designable-shared';
 import { genOutlineTreeWidgetStyle } from './styles';
 
 export interface IOutlineTreeWidgetProps {

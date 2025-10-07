@@ -4,12 +4,12 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from '@trionesdev/designable-core';
-import { isFn } from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-core';
+import { isFn } from '@thevikalp/designable-shared';
 import { observer } from '@formily/reactive-react';
 import cls from 'classnames';
 import { genResourceWidgetStyle } from './styles';
-import { TextWidget, useCssInJs, useToken } from '@trionesdev/designable-react';
+import { TextWidget, useCssInJs, useToken } from '@thevikalp/designable-react';
 import { useDrag } from 'react-dnd';
 import { IconWidget } from '../IconWidget';
 

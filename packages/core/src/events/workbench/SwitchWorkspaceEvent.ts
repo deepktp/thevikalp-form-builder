@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@trionesdev/designable-shared';
+import { ICustomEvent } from '@thevikalp/designable-shared';
 import { AbstractWorkspaceEvent } from './AbstractWorkspaceEvent';
 
 export class SwitchWorkspaceEvent

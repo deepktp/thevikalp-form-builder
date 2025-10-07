@@ -1,7 +1,7 @@
 import {
   MonacoInput,
   getNpmCDNRegistry,
-} from '@trionesdev/designable-react-settings-form';
+} from '@thevikalp/designable-react-settings-form';
 
 export interface IDependency {
   name: string;

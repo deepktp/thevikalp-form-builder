@@ -3,7 +3,7 @@ import { action, define, observable } from '@formily/reactive';
 import {
   globalThisPolyfill,
   isValidNumber,
-} from '@trionesdev/designable-shared';
+} from '@thevikalp/designable-shared';
 
 export enum CursorStatus {
   Normal = 'NORMAL',

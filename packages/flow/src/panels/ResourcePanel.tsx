@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCssInJs } from '@trionesdev/designable-react';
+import { useCssInJs } from '@thevikalp/designable-react';
 import { genResourcePanelStyle } from './styles';
 import cls from 'classnames';
 

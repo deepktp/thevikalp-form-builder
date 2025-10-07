@@ -12,7 +12,7 @@ import {
   CursorStatus,
   ClosestPosition,
   TreeNode,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import cls from 'classnames';
 interface ICoverRectProps {
   node: TreeNode;

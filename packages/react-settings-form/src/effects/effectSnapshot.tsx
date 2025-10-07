@@ -1,4 +1,4 @@
-import { Operation } from '@trionesdev/designable-core';
+import { Operation } from '@thevikalp/designable-core';
 import { onFieldInputValueChange } from '@formily/core';
 
 let timeRequest = null;

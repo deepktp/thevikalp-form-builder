@@ -8,7 +8,7 @@ import {
 } from '../../hooks';
 import { TreeNodeContext, DesignerComponentsContext } from '../../context';
 import { IDesignerComponents } from '../../types';
-import { TreeNode, GlobalRegistry } from '@trionesdev/designable-core';
+import { TreeNode, GlobalRegistry } from '@thevikalp/designable-core';
 import { observer } from '@formily/reactive-react';
 import cls from 'classnames';
 // import './styles.less'

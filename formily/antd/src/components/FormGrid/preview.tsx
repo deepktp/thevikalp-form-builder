@@ -4,13 +4,13 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import {
   DnFC,
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { observer } from '@formily/reactive-react';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { createFieldSchema } from '../Field';

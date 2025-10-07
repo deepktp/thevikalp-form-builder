@@ -1,4 +1,4 @@
-import { EventDriver, globalThisPolyfill } from '@trionesdev/designable-shared';
+import { EventDriver, globalThisPolyfill } from '@thevikalp/designable-shared';
 import { Engine } from '../models/Engine';
 import { ViewportScrollEvent } from '../events';
 

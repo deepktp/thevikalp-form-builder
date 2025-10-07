@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@trionesdev/designable-core';
+import { GlobalRegistry } from '@thevikalp/designable-core';
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

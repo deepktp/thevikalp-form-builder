@@ -1,4 +1,4 @@
-import { isArr } from '@trionesdev/designable-shared';
+import { isArr } from '@thevikalp/designable-shared';
 import { untracked } from '@formily/reactive';
 import { DEFAULT_DRIVERS, DEFAULT_EFFECTS, DEFAULT_SHORTCUTS } from './presets';
 import { Engine, TreeNode } from './models';

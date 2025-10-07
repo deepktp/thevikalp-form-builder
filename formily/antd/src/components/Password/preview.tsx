@@ -1,7 +1,7 @@
 import React from 'react';
 import { Password as FormilyPassword } from '@formily/antd-v5';
-import { createBehavior, createResource } from '@trionesdev/designable-core';
-import { DnFC } from '@trionesdev/designable-react';
+import { createBehavior, createResource } from '@thevikalp/designable-core';
+import { DnFC } from '@thevikalp/designable-react';
 import { createFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';
 import { AllLocales } from '../../locales';

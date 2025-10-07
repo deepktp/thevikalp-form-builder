@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { requestIdle } from '@trionesdev/designable-shared';
+import { requestIdle } from '@thevikalp/designable-shared';
 import { observer } from '@formily/reactive-react';
 import cls from 'classnames';
 import { genSettingsPanelStyle } from './styles';
@@ -7,7 +7,7 @@ import {
   IconWidget,
   TextWidget,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { useFlowViewport, useSelectedNode } from '../hooks';
 
 export interface ISettingPanelProps {

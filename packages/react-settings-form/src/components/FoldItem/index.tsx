@@ -6,7 +6,7 @@ import {
   IconWidget,
   useCssInJs,
   usePrefix,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import cls from 'classnames';
 import { genFoldItemStyle } from './styles';
 

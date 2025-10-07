@@ -4,7 +4,7 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@trionesdev/designable-core';
+} from '@thevikalp/designable-core';
 import {
   useTreeNode,
   TreeNodeWidget,
@@ -12,7 +12,7 @@ import {
   useNodeIdProps,
   DnFC,
   useCssInJs,
-} from '@trionesdev/designable-react';
+} from '@thevikalp/designable-react';
 import { ArrayBase } from '@formily/antd-v5';
 import { observer } from '@formily/react';
 import { LoadTemplate } from '../../common/LoadTemplate';

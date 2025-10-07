@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Input, Popover } from 'antd';
-import { useCssInJs, usePrefix } from '@trionesdev/designable-react';
+import { useCssInJs, usePrefix } from '@thevikalp/designable-react';
 import { SketchPicker } from 'react-color';
 import cls from 'classnames';
 import { genColorInputStyle } from './styles';

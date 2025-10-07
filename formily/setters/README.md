@@ -1,7 +1,7 @@
-# @trionesdev/designable-formily-setters
+# @thevikalp/designable-formily-setters
 
-[![NPM version](https://img.shields.io/npm/v/@trionesdev/designable-formily-setters.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-formily-setters)
-[![NPM downloads](http://img.shields.io/npm/dm/@trionesdev/designable-formily-setters.svg?style=flat)](https://npmjs.org/package/@trionesdev/designable-formily-setters)
+[![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-formily-setters.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-formily-setters)
+[![NPM downloads](http://img.shields.io/npm/dm/@thevikalp/designable-formily-setters.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-formily-setters)
 
 ## Install
 

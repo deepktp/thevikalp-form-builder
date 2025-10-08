@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'antd';
+import { Button, Space } from 'antd';
 import { observer } from '@formily/reactive-react';
 import { WorkbenchTypes } from '@thevikalp/designable-core';
 import { IconWidget } from '../IconWidget';
@@ -17,7 +17,7 @@ export const ViewToolsWidget: React.FC<IViewToolsWidget> = observer(
     const workbench = useWorkbench();
     const prefix = usePrefix('view-tools');
     return (
-      <Button.Group style={style} className={cls(prefix, className)}>
+      <Space.Compact style={style} className={cls(prefix, className)}>
         {use.includes('DESIGNABLE') && (
           <Button
             disabled={workbench.type === 'DESIGNABLE'}
@@ -62,7 +62,7 @@ export const ViewToolsWidget: React.FC<IViewToolsWidget> = observer(
             <IconWidget infer="Play" />
           </Button>
         )}
-      </Button.Group>
+      </Space.Compact>
     );
   },
 );

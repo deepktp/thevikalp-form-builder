@@ -1,5 +1,5 @@
 import React, { Fragment, useRef } from 'react';
-import { Button, InputNumber } from 'antd';
+import { Button, InputNumber, Space } from 'antd';
 import { observer } from '@formily/reactive-react';
 import { CursorType, ScreenType } from '@thevikalp/designable-core';
 import {
@@ -38,7 +38,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
     const renderHistoryController = () => {
       if (!use.includes('HISTORY')) return null;
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Space.Compact size="small" style={{ marginRight: 20 }}>
           <Button
             size="small"
             disabled={!history?.allowUndo}
@@ -57,7 +57,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
           >
             <IconWidget infer="Redo" />
           </Button>
-        </Button.Group>
+        </Space.Compact>
       );
     };
 
@@ -65,7 +65,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
       if (workbench.type !== 'DESIGNABLE') return null;
       if (!use.includes('CURSOR')) return null;
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Space.Compact size="small" style={{ marginRight: 20 }}>
           <Button
             size="small"
             disabled={cursor.type === CursorType.Normal}
@@ -84,7 +84,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
           >
             <IconWidget infer="Selection" />
           </Button>
-        </Button.Group>
+        </Space.Compact>
       );
     };
 
@@ -142,7 +142,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
     const renderScreenTypeController = () => {
       if (!use.includes('SCREEN_TYPE')) return null;
       return (
-        <Button.Group size="small" style={{ marginRight: 20 }}>
+        <Space.Compact size="small" style={{ marginRight: 20 }}>
           <Button
             size="small"
             disabled={screen.type === ScreenType.PC}
@@ -170,7 +170,7 @@ export const DesignerToolsWidget: React.FC<IDesignerToolsWidgetProps> =
           >
             <IconWidget infer="Responsive" />
           </Button>
-        </Button.Group>
+        </Space.Compact>
       );
     };
 

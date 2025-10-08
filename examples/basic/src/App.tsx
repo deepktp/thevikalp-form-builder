@@ -45,7 +45,7 @@ import {
   TimePicker,
   Transfer,
   TreeSelect,
-  Upload,
+  Upload
 } from '@thevikalp/designable-formily-antd';
 import { SettingsForm } from '@thevikalp/designable-react-settings-form';
 import { transformToSchema } from '@thevikalp/designable-formily-transformer';
@@ -80,7 +80,7 @@ function App() {
   };
 
   useEffect(() => {
-    GlobalRegistry.setDesignerLanguage('hi-in');
+    GlobalRegistry.setDesignerLanguage('en-us');
   }, []);
 
   const components: IDesignerComponents = {
@@ -110,7 +110,7 @@ function App() {
 
   return (
     <Designer engine={engine}>
-      <StudioPanel actions={[<Button onClick={handleSave}>Save</Button>]}>
+      <StudioPanel actions={[<Button onClick={handleSave} key="save-button">Save</Button>]}>
         <CompositePanel>
           <CompositePanel.Item title="Component" icon="Component">
             <ResourceWidget title="Display Elements" sources={[Text]} />

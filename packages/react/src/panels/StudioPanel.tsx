@@ -18,6 +18,7 @@ export interface IStudioPanelProps {
 const StudioPanelInternal: React.FC<IStudioPanelProps> = ({
   logo,
   actions,
+  children,
   ...props
 }) => {
   const prefix = usePrefix('main-panel');
@@ -41,7 +42,7 @@ const StudioPanelInternal: React.FC<IStudioPanelProps> = ({
             {actions}
           </div>
         </div>
-        <div className={cls(prefix, hashId)}>{props.children}</div>
+        <div className={cls(prefix, hashId)}>{children}</div>
       </div>,
     );
   }
@@ -50,7 +51,7 @@ const StudioPanelInternal: React.FC<IStudioPanelProps> = ({
       {...props}
       className={cls(`${prefix}-container`, classNameBase, hashId)}
     >
-      {props.children}
+      {children}
     </div>,
   );
 };

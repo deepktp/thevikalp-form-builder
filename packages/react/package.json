@@ -1,6 +1,6 @@
 {
   "name": "@thevikalp/designable-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -34,8 +34,8 @@
     "@ant-design/cssinjs": "^1.16.1",
     "@formily/reactive": "^2.2.29",
     "@formily/reactive-react": "^2.2.29",
-    "@thevikalp/designable-core": "^1.0.0",
-    "@thevikalp/designable-shared": "^1.0.0",
+    "@thevikalp/designable-core": "^1.1.0",
+    "@thevikalp/designable-shared": "^1.1.0",
     "antd": "^5.8.2",
     "classnames": "^2.3.2",
     "dateformat": "^5.0.3",

@@ -1,6 +1,6 @@
 {
   "name": "@thevikalp/designable-formily-transformer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -29,8 +29,8 @@
   "dependencies": {
     "@formily/core": "^2.2.29",
     "@formily/json-schema": "^2.2.29",
-    "@thevikalp/designable-core": "^1.0.0",
-    "@thevikalp/designable-shared": "^1.0.0"
+    "@thevikalp/designable-core": "^1.1.0",
+    "@thevikalp/designable-shared": "^1.1.0"
   },
   "gitHead": "1e1e559a8415f450df9f0c52ff27f8d6848ddd91"
 }

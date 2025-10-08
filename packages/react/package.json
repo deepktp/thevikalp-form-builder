@@ -28,7 +28,6 @@
     "@types/react": "^18.0.28",
     "father": "^4.3.0",
     "prettier": "^3.0.1",
-    "react-color": "^2.19.3",
     "react-tiny-popover": "^7.2.4"
   },
   "dependencies": {

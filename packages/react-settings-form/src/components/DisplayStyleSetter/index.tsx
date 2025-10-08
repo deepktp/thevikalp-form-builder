@@ -36,7 +36,6 @@ export const DisplayStyleSetter: React.FC<IDisplayStyleSetterProps> = observer(
           style={props.style}
         >
           <Radio.Group
-            className={cls(prefix + '-radio', hashId)}
             options={[
               {
                 label: <IconWidget infer="DisplayBlock" size={16} />,

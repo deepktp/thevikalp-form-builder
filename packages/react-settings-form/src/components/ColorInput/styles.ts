@@ -19,6 +19,12 @@ export const genColorInputStyle = (
         border: `1px solid ${token.colorBorder}`,
         cursor: 'pointer',
       },
+      [`.ant-color-picker-trigger`]: {
+        padding: 0,
+        paddingLeft: 3,
+        paddingRight: 3,
+        alignItems: 'center',
+      },
     },
   },
 ];

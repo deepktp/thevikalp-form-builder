@@ -1,3 +1,7 @@
+# WARNING
+
+This package is not designed for public use. It has been modified for internal use and may be changed according to our needs. Do not use this package in production or rely on its stability.
+
 # @thevikalp/designable-react-settings-form
 
 [![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-react-settings-form.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-react-settings-form)
@@ -20,4 +24,4 @@ TODO
 
 ## LICENSE
 
-MIT
+UNLICENSED

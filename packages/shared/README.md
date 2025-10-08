@@ -1,3 +1,7 @@
+# WARNING
+
+This package is not designed for public use. It has been modified for internal use and may be changed according to our needs. Do not use this package in production or rely on its stability.
+
 # @thevikalp/designable-shared
 
 [![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-shared.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-shared)
@@ -20,4 +24,4 @@ TODO
 
 ## LICENSE
 
-MIT
+UNLICENSED

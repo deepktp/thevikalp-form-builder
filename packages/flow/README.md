@@ -1,7 +1,11 @@
-# @alkaid/designer
+# WARNING
 
-[![NPM version](https://img.shields.io/npm/v/@alkaid/designer.svg?style=flat)](https://npmjs.org/package/@alkaid/designer)
-[![NPM downloads](http://img.shields.io/npm/dm/@alkaid/designer.svg?style=flat)](https://npmjs.org/package/@alkaid/designer)
+This package is not designed for public use. It has been modified for internal use and may be changed according to our needs. Do not use this package in production or rely on its stability.
+
+# @thevikalp/designable-flow
+
+[![NPM version](https://img.shields.io/npm/v/@thevikalp/designable-flow.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-flow)
+[![NPM downloads](http://img.shields.io/npm/dm/@thevikalp/designable-flow.svg?style=flat)](https://npmjs.org/package/@thevikalp/designable-flow)
 
 ## Install
 
@@ -20,4 +24,4 @@ TODO
 
 ## LICENSE
 
-MIT
+UNLICENSED

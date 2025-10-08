@@ -10,7 +10,8 @@ import {
   CompositePanel,
   Designer,
   DesignerToolsWidget,
-  HistoryWidget, IDesignerComponents,
+  HistoryWidget,
+  IDesignerComponents,
   OutlineTreeWidget,
   ResourceWidget,
   SettingsPanel,
@@ -33,13 +34,23 @@ import {
   Rate,
   Card,
   FormGrid,
-  Space
+  Space,
+  Checkbox,
+  DatePicker,
+  Radio,
+  Select,
+  Slider,
+  Switch,
+  Text,
+  TimePicker,
+  Transfer,
+  TreeSelect,
+  Upload,
 } from '@thevikalp/designable-formily-antd';
 import { SettingsForm } from '@thevikalp/designable-react-settings-form';
 import { transformToSchema } from '@thevikalp/designable-formily-transformer';
 import { Button } from 'antd';
 import { PreviewWidget } from './PreviewWidget';
-
 
 function App() {
   const engine = useMemo(
@@ -52,9 +63,9 @@ function App() {
               [KeyCode.Control, KeyCode.S],
             ],
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            handler(_ctx:any) {
+            handler(_ctx: any) {
               console.log(
-                JSON.stringify(transformToSchema(engine.getCurrentTree())),
+                JSON.stringify(transformToSchema(engine.getCurrentTree()), null, 2),
               );
             },
           }),
@@ -65,11 +76,11 @@ function App() {
   );
 
   const handleSave = () => {
-    console.log(JSON.stringify(transformToSchema(engine.getCurrentTree())));
+    console.log(JSON.stringify(transformToSchema(engine.getCurrentTree()), null, 2));
   };
 
   useEffect(() => {
-    GlobalRegistry.setDesignerLanguage('en-us');
+    GlobalRegistry.setDesignerLanguage('hi-in');
   }, []);
 
   const components: IDesignerComponents = {
@@ -83,29 +94,43 @@ function App() {
     ArrayTable,
     Card,
     FormGrid,
-    Space
+    Space,
+    Checkbox,
+    DatePicker,
+    Radio,
+    Select,
+    Slider,
+    Switch,
+    Text,
+    TimePicker,
+    Transfer,
+    TreeSelect,
+    Upload,
   };
 
   return (
     <Designer engine={engine}>
-      <StudioPanel actions={[<Button onClick={handleSave}>保存</Button>]}>
+      <StudioPanel actions={[<Button onClick={handleSave}>Save</Button>]}>
         <CompositePanel>
-          <CompositePanel.Item title="panels.Component" icon="Component">
+          <CompositePanel.Item title="Component" icon="Component">
+            <ResourceWidget title="Display Elements" sources={[Text]} />
             <ResourceWidget
-              title="sources.Inputs"
-              sources={[Input, Password, NumberPicker, Rate]}
+              title="Basic Fields"
+              sources={[Input, Password, NumberPicker, Radio, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate]}
             />
-            <ResourceWidget title="sources.Layouts" sources={[Card,FormGrid,Space]} />
             <ResourceWidget
-              title="sources.Arrays"
+              title="Layout Fields"
+              sources={[Card, FormGrid, Space]}
+            />
+            <ResourceWidget
+              title="Array Fields"
               sources={[ArrayCards, ArrayTable]}
             />
-            {/*<ResourceWidget title="sources.Displays" sources={[Text]} />*/}
           </CompositePanel.Item>
-          <CompositePanel.Item title="panels.OutlinedTree" icon="Outline">
+          <CompositePanel.Item title="Structure Tree" icon="Outline">
             <OutlineTreeWidget />
           </CompositePanel.Item>
-          <CompositePanel.Item title="panels.History" icon="History">
+          <CompositePanel.Item title="History" icon="History">
             <HistoryWidget />
           </CompositePanel.Item>
         </CompositePanel>
@@ -119,17 +144,21 @@ function App() {
             </ToolbarPanel>
             <ViewportPanel style={{ height: '100%' }}>
               <ViewPanel type="DESIGNABLE">
-                {() => (
-                  <ComponentTreeWidget
-                    components={components}
-                  />
-                )}
+                {() => <ComponentTreeWidget components={components} />}
               </ViewPanel>
               <ViewPanel type="JSONTREE">
-                {(tree) => <div dangerouslySetInnerHTML={{__html:JSON.stringify(transformToSchema(tree))}}></div>}
+                {(tree) => (
+                  <div
+                    // dangerouslySetInnerHTML={{
+                    //   __html: ``,
+                    // }}
+                  >
+                    <pre>{JSON.stringify(transformToSchema(tree), null, 2)}</pre>
+                  </div>
+                )}
               </ViewPanel>
               <ViewPanel type={`PREVIEW`}>
-                {(tree) => <PreviewWidget tree={tree}  />}
+                {(tree) => <PreviewWidget tree={tree} />}
               </ViewPanel>
             </ViewportPanel>
           </WorkspacePanel>

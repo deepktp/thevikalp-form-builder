@@ -58,6 +58,7 @@ export const ViewPanel: React.FC<IViewPanelProps> = observer(({ scrollable = tru
         userSelect: 'text',
       }}
     >
+      
       {visible && render()}
     </div>
   );

@@ -45,7 +45,8 @@ import {
   TimePicker,
   Transfer,
   TreeSelect,
-  Upload
+  Upload,
+  Cascader,
 } from '@thevikalp/designable-formily-antd';
 import { SettingsForm } from '@thevikalp/designable-react-settings-form';
 import { transformToSchema } from '@thevikalp/designable-formily-transformer';
@@ -106,6 +107,7 @@ function App() {
     Transfer,
     TreeSelect,
     Upload,
+    Cascader
   };
 
   return (
@@ -116,7 +118,7 @@ function App() {
             <ResourceWidget title="Display Elements" sources={[Text]} />
             <ResourceWidget
               title="Basic Fields"
-              sources={[Input, Password, NumberPicker, Radio, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate]}
+              sources={[Input, Password, NumberPicker, Radio, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate, Cascader]}
             />
             <ResourceWidget
               title="Layout Fields"
@@ -148,11 +150,7 @@ function App() {
               </ViewPanel>
               <ViewPanel type="JSONTREE">
                 {(tree) => (
-                  <div
-                    // dangerouslySetInnerHTML={{
-                    //   __html: ``,
-                    // }}
-                  >
+                  <div>
                     <pre>{JSON.stringify(transformToSchema(tree), null, 2)}</pre>
                   </div>
                 )}

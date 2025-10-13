@@ -2133,6 +2133,96 @@
   dependencies:
     "@swc/counter" "^0.1.3"
 
+"@thevikalp/designable-core@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-core/-/designable-core-1.1.0.tgz#130e6297d9932a7f596fb13e7d53fa59e998da8d"
+  integrity sha512-mB7aC5B5mO6ZUxevUDHxEAxKEqH5+S1P6h1G3t+X2mp+5UVBs5zDiNxJfgmEYGdcpjW3EN/jKNQ78fbPcRv31g==
+  dependencies:
+    "@formily/json-schema" "^2.2.29"
+    "@formily/path" "^2.2.29"
+    "@formily/reactive" "^2.2.29"
+    "@juggle/resize-observer" "^3.4.0"
+    "@thevikalp/designable-shared" "^1.1.0"
+
+"@thevikalp/designable-formily-antd@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-formily-antd/-/designable-formily-antd-1.1.0.tgz#ddb4967c25bf40ee5bae017d3955b7f9c10cc20a"
+  integrity sha512-fGfOzzJWrOKJZU20KpFUjhm6NvXyv9Y7elr0H9mm0IVN7oSC0aKQn2ECw5pFsB8ZVDvNPNzkFc5zXs8hxHBD/g==
+  dependencies:
+    "@ant-design/cssinjs" "^1.16.1"
+    "@formily/antd-v5" "^1.1.0"
+    "@formily/core" "^2.2.29"
+    "@formily/json-schema" "^2.2.29"
+    "@formily/react" "^2.2.29"
+    "@formily/reactive" "^2.2.29"
+    "@formily/reactive-react" "^2.2.29"
+    "@formily/shared" "^2.2.29"
+    "@thevikalp/designable-core" "^1.1.0"
+    "@thevikalp/designable-formily-setters" "^1.1.0"
+    "@thevikalp/designable-formily-transformer" "^1.1.0"
+    "@thevikalp/designable-react" "^1.1.0"
+    "@thevikalp/designable-shared" "^1.1.0"
+    antd "^5.8.2"
+    classnames "^2.3.2"
+    react "^18.2.0"
+
+"@thevikalp/designable-formily-transformer@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-formily-transformer/-/designable-formily-transformer-1.1.0.tgz#260d0fad6fc13c37d7ea6c7c889fefd1a3f04572"
+  integrity sha512-rLB/mHskXa+8UTqt85vjRqedlQg5dUmRCV5YtwDh76JwttqbYywb8PN6BF1CT+HMG+bek71KlErWIiF5Eke3SA==
+  dependencies:
+    "@formily/core" "^2.2.29"
+    "@formily/json-schema" "^2.2.29"
+    "@thevikalp/designable-core" "^1.1.0"
+    "@thevikalp/designable-shared" "^1.1.0"
+
+"@thevikalp/designable-react-settings-form@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-react-settings-form/-/designable-react-settings-form-1.1.0.tgz#bbbeeae1d3cc05507a0e666208807c8489fd425e"
+  integrity sha512-9rOJYW+ZZ3C+mseFH+MfD4Yn3JWwQlVJ8DcFTBQkEPFsJhuESgUO3meS0XkYsiL/hBmCO5nxK15L+iGBB7mrlg==
+  dependencies:
+    "@ant-design/cssinjs" "^1.16.1"
+    "@babel/parser" "^7.22.10"
+    "@formily/antd-v5" "^1.1.0"
+    "@formily/core" "^2.2.27"
+    "@formily/react" "^2.2.27"
+    "@formily/reactive" "^2.2.27"
+    "@formily/shared" "^2.2.27"
+    "@monaco-editor/loader" "^1.3.3"
+    "@monaco-editor/react" "^4.5.1"
+    "@thevikalp/designable-core" "^1.1.0"
+    "@thevikalp/designable-react" "^1.1.0"
+    "@thevikalp/designable-shared" "^1.1.0"
+    antd "^5.8.0"
+    classnames "^2.3.2"
+    monaco-editor "^0.41.0"
+    prettier "^3.0.1"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-tiny-popover "^7.2.4"
+
+"@thevikalp/designable-react@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-react/-/designable-react-1.1.0.tgz#1a3e2d023e442e3c192c890ea6776bd83b62f460"
+  integrity sha512-hn2e1mVxd1qMI+Orh8Qy/FnoizLj1oBgymgmULr4FsRPQRKS7j/iv577Jv4359XFvtixSfc8gpCmiNS90gwQFg==
+  dependencies:
+    "@ant-design/cssinjs" "^1.16.1"
+    "@formily/reactive" "^2.2.29"
+    "@formily/reactive-react" "^2.2.29"
+    "@thevikalp/designable-core" "^1.1.0"
+    "@thevikalp/designable-shared" "^1.1.0"
+    antd "^5.8.2"
+    classnames "^2.3.2"
+    dateformat "^5.0.3"
+    react "^18.2.0"
+
+"@thevikalp/designable-shared@workspace:*":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@thevikalp/designable-shared/-/designable-shared-1.1.0.tgz#f78fa75f710c45d496bfb4b5d913373bd1c49707"
+  integrity sha512-Lqx5kaYuxiluwJIiTu6/3ZUVqEEUCZXiFENsq8XOuKc+tzsj2FRE+Hc88Px4wHn1xUZLvCd7DQz/SU2M/ZbW5g==
+  dependencies:
+    requestidlecallback "^0.3.0"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -8347,6 +8437,11 @@ react-sticky-box@^1.0.2:
   integrity sha512-Kyvtppdtv1KqJyNU4DtrSMI0unyQRgtraZvVQ0GAazVbYiTsIVpyhpr+5R0Aavzu4uJNSe1awj2rk/qI7i6Zfw==
   dependencies:
     resize-observer-polyfill "^1.5.1"
+
+react-tiny-popover@^7.2.4:
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/react-tiny-popover/-/react-tiny-popover-7.2.4.tgz#b11fe9b43d1fc8ac46e760419346afd41d6111ee"
+  integrity sha512-T7ZSwXcUtPXCog3Bux9+TjoTvUeMi/+zI0Yv/TkIznZCWUg0XTt2797G0IiT5mTVeJeLivUzdOmKA1hOQdMfOQ==
 
 react@^18.2.0, react@^18.3.1:
   version "18.3.1"

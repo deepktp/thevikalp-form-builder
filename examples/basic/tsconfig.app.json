@@ -18,7 +18,17 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@thevikalp/designable-core": ["../../packages/core/src"],
+      "@thevikalp/designable-react": ["../../packages/react/src"],
+      "@thevikalp/designable-react-settings-form": ["../../packages/react-settings-form/src"],
+      "@thevikalp/designable-shared": ["../../packages/shared/src"],
+      "@thevikalp/designable-formily-antd": ["../../formily/antd/src"],
+      "@thevikalp/designable-formily-transformer": ["../../formily/transformer/src"]
+    }
   },
   "include": ["src"]
 }

@@ -10,7 +10,7 @@
     "clean": "lerna clean",
     "example:basic": "yarn workspace basic run dev",
     "check:types": "tsc --project tsconfig.json --noEmit",
-    "build": "lerna run build",
+    "build": "lerna run build --no-private",
     "preversion": "yarn run build",
     "version:beta": "lerna version prerelease --preid beta",
     "release:github": "ts-node scripts/release release",

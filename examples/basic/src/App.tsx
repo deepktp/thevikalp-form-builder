@@ -118,7 +118,7 @@ function App() {
             <ResourceWidget title="Display Elements" sources={[Text]} />
             <ResourceWidget
               title="Basic Fields"
-              sources={[Input, Password, NumberPicker, Radio, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate, Cascader]}
+              sources={[Input, Password, NumberPicker, Radio, Checkbox, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate, Cascader]}
             />
             <ResourceWidget
               title="Layout Fields"

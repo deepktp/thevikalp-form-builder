@@ -25,3 +25,5 @@ export * from './FormTab';
 export * from './FormCollapse';
 export * from './ArrayTable';
 export * from './ArrayCards';
+
+export * from './FullName';

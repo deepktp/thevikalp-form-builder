@@ -47,6 +47,7 @@ import {
   TreeSelect,
   Upload,
   Cascader,
+  FullName,
 } from '@thevikalp/designable-formily-antd';
 import { SettingsForm } from '@thevikalp/designable-react-settings-form';
 import { transformToSchema } from '@thevikalp/designable-formily-transformer';
@@ -107,7 +108,8 @@ function App() {
     Transfer,
     TreeSelect,
     Upload,
-    Cascader
+    Cascader,
+    FullName,
   };
 
   return (
@@ -122,7 +124,7 @@ function App() {
             />
             <ResourceWidget
               title="Layout Fields"
-              sources={[Card, FormGrid, Space]}
+              sources={[Card, FormGrid, Space, FullName]}
             />
             <ResourceWidget
               title="Array Fields"

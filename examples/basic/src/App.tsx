@@ -144,7 +144,7 @@ function App() {
                 use={['DESIGNABLE', 'JSONTREE', 'MARKUP', 'PREVIEW']}
               />
             </ToolbarPanel>
-            <ViewportPanel style={{ height: '100%' }}>
+            <ViewportPanel style={{ height: '100%', padding:'10px', width: "calc(100% - 100px)", maxWidth: "800px", margin: "10px auto" }}>
               <ViewPanel type="DESIGNABLE">
                 {() => <ComponentTreeWidget components={components} />}
               </ViewPanel>
@@ -162,7 +162,7 @@ function App() {
           </WorkspacePanel>
         </Workspace>
         <SettingsPanel title="panels.PropertySettings">
-          <SettingsForm uploadAction="https://www.mocky.io/v2/5cc8019d300000980a055e76" />
+          <SettingsForm uploadAction="https://www.mocki.io/v2/5cc8019d300000980a055e76" />
         </SettingsPanel>
       </StudioPanel>
     </Designer>

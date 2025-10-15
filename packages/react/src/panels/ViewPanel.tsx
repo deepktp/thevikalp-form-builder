@@ -44,7 +44,7 @@ export const ViewPanel: React.FC<IViewPanelProps> = observer(({ scrollable = tru
   };
   if (workbench.type === 'DESIGNABLE')
     return (
-      <Viewport dragTipsDirection={dragTipsDirection}>
+      <Viewport dragTipsDirection={dragTipsDirection} style={{ padding: "10px 20px"}}>
         {render()}
       </Viewport>
     );
@@ -56,6 +56,7 @@ export const ViewPanel: React.FC<IViewPanelProps> = observer(({ scrollable = tru
         height: '100%',
         cursor: 'auto',
         userSelect: 'text',
+        padding: "10px 20px"
       }}
     >
       

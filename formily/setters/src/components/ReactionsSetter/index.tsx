@@ -188,12 +188,14 @@ export const ReactionsSetter: React.FC<IReactionsSetterProps> = (props) => {
         )}
         width="70%"
         centered
-        bodyStyle={{ padding: 10 }}
+        styles={{
+          body: { padding: 10 },
+        }}
         transitionName=""
         maskTransitionName=""
         open={modalVisible}
         onCancel={closeModal}
-        destroyOnClose
+        destroyOnHidden
         onOk={() => {
           form.submit((values) => {
             props.onChange?.(values);

@@ -32,6 +32,7 @@ Triones Designable is a powerful form designer library built on top of [Formily]
 
 ## Documentation Sections
 
+### General Documentation
 - [Project Structure](./project-structure.md) - Overview of the monorepo structure
 - [Commands](./commands.md) - Available scripts and commands
 - [Packages](./packages.md) - Description of all packages in the monorepo
@@ -41,6 +42,16 @@ Triones Designable is a powerful form designer library built on top of [Formily]
 - [Modifying Files](./modifying-files.md) - Guidelines for modifying existing code
 - [Components](./components.md) - Available form components
 - [Getting Started](./getting-started.md) - Step-by-step setup guide
+
+### Package Documentation
+- [Core Package](./core.md) - @thevikalp/designable-core API reference
+- [React Package](./react.md) - @thevikalp/designable-react API reference
+- [Shared Package](./shared.md) - @thevikalp/designable-shared API reference
+- [React Settings Form](./react-settings-form.md) - @thevikalp/designable-react-settings-form API reference
+- [Flow Package](./flow.md) - @thevikalp/designable-flow API reference
+- [Formily Antd](./formily-antd.md) - @thevikalp/designable-formily-antd API reference
+- [Formily Setters](./formily-setters.md) - @thevikalp/designable-formily-setters API reference
+- [Formily Transformer](./formily-transformer.md) - @thevikalp/designable-formily-transformer API reference
 
 ## Architecture
 

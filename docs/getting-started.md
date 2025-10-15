@@ -15,8 +15,8 @@ Before you begin, ensure you have:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/thevikalpdev/thevikalp-form-designer.git
-cd triones-designable
+git clone https://github.com/thevikalp/thevikalp-form-builder.git
+cd thevikalp-form-builder
 ```
 
 ### Install Dependencies

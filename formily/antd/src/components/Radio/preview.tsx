@@ -30,8 +30,8 @@ Radio.Resource = createResource({
         'x-decorator': 'FormItem',
         'x-component': 'Radio.Group',
         enum: [
-          { label: '选项1', value: 1 },
-          { label: '选项2', value: 2 },
+          { label: 'Option 1', value: 1 },
+          { label: 'Option 2', value: 2 },
         ],
       },
     },

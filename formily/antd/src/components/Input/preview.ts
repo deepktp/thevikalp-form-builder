@@ -28,6 +28,15 @@ Input.Behavior = createBehavior(
     },
     designerLocales: AllLocales.TextArea,
   },
+  {
+    name: 'Input.Email',
+    extends: ['Field'],
+    selector: (node) => node.props['x-component'] === 'Input.Email',
+    designerProps: {
+      propsSchema: createFieldSchema(AllSchemas.Input.Email),
+    },
+    designerLocales: AllLocales.Email,
+  },
 );
 
 Input.Resource = createResource(
@@ -55,6 +64,23 @@ Input.Resource = createResource(
           title: 'TextArea',
           'x-decorator': 'FormItem',
           'x-component': 'Input.TextArea',
+        },
+      },
+    ],
+  },
+  {
+    icon: 'EmailSource',
+    title: "Email",
+    elements: [
+      {
+        componentName: 'Field',
+        props: {
+          type: 'string',
+          title: 'Email',
+          'x-validator': 'email',
+          'x-decorator': 'FormItem',
+          'x-component': 'Input',
+          "required": true
         },
       },
     ],

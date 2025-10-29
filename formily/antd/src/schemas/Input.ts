@@ -1,6 +1,6 @@
 import { ISchema } from '@formily/react';
 
-export const Input: ISchema & { TextArea?: ISchema } = {
+export const Input: ISchema & { TextArea?: ISchema; Email?: ISchema } = {
   type: 'object',
   properties: {
     addonBefore: {
@@ -87,6 +87,30 @@ Input.TextArea = {
     showCount: {
       'x-decorator': 'FormItem',
       'x-component': 'Switch',
+    },
+  },
+};
+
+Input.Email = {
+  type: 'object',
+  properties: {
+    bordered: {
+      type: 'boolean',
+      'x-decorator': 'FormItem',
+      'x-component': 'Switch',
+      'x-component-props': {
+        defaultChecked: true,
+      },
+    },
+    maxLength: {
+      type: 'number',
+      'x-decorator': 'FormItem',
+      'x-component': 'NumberPicker',
+    },
+    placeholder: {
+      type: 'string',
+      'x-decorator': 'FormItem',
+      'x-component': 'Input',
     },
   },
 };

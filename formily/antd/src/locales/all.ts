@@ -3,6 +3,7 @@ export * from './Field';
 export * from './Input';
 export * from './Select';
 export * from './TextArea';
+export * from './Email';
 export * from './TreeSelect';
 export * from './Cascader';
 export * from './Radio';

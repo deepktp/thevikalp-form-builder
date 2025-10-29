@@ -35,6 +35,38 @@ export const TextAreaSource: React.JSX.Element = (
   </g>
 );
 
+export const EmailSource: React.JSX.Element = (
+  <g
+    stroke="none"
+    strokeWidth="1"
+    fill="none"
+    fillRule="evenodd"
+    transform="scale(42)"
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    ></g>
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M4 9.00005L10.2 13.65C11.2667 14.45 12.7333 14.45 13.8 13.65L20 9"
+        stroke="var(--dn-brand-color)"
+        strokeWidth="1.056"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+      <path
+        d="M3 9.17681C3 8.45047 3.39378 7.78123 4.02871 7.42849L11.0287 3.5396C11.6328 3.20402 12.3672 3.20402 12.9713 3.5396L19.9713 7.42849C20.6062 7.78123 21 8.45047 21 9.17681V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V9.17681Z"
+        stroke="#999999"
+        strokeWidth="1.056"
+        strokeLinecap="round"
+      ></path>
+    </g>
+  </g>
+);
+
 export const SelectSource: React.JSX.Element = (
   <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
     <path
@@ -1433,7 +1465,7 @@ export const FullNameSource = {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M24.5 23.98C28.354 23.98 31.5 20.832 31.5 16.9133C31.5 12.9946 28.354 9.84668 24.5 9.84668C20.646 9.84668 17.5 12.9946 17.5 16.9133C17.5 20.832 20.646 23.98 24.5 23.98ZM33.5 16.9133C33.5 21.9227 29.4725 25.98 24.5 25.98C19.5275 25.98 15.5 21.9227 15.5 16.9133C15.5 11.904 19.5275 7.84668 24.5 7.84668C29.4725 7.84668 33.5 11.904 33.5 16.9133Z"
-        fill="#999999"
+        fill="var(--dn-brand-color)"
       ></path>
       <path
         fillRule="evenodd"

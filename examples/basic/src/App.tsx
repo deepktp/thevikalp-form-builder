@@ -67,7 +67,11 @@ function App() {
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             handler(_ctx: any) {
               console.log(
-                JSON.stringify(transformToSchema(engine.getCurrentTree()), null, 2),
+                JSON.stringify(
+                  transformToSchema(engine.getCurrentTree()),
+                  null,
+                  2,
+                ),
               );
             },
           }),
@@ -78,7 +82,9 @@ function App() {
   );
 
   const handleSave = () => {
-    console.log(JSON.stringify(transformToSchema(engine.getCurrentTree()), null, 2));
+    console.log(
+      JSON.stringify(transformToSchema(engine.getCurrentTree()), null, 2),
+    );
   };
 
   useEffect(() => {
@@ -114,17 +120,39 @@ function App() {
 
   return (
     <Designer engine={engine}>
-      <StudioPanel actions={[<Button onClick={handleSave} key="save-button">Save</Button>]}>
+      <StudioPanel
+        actions={[
+          <Button onClick={handleSave} key="save-button">
+            Save
+          </Button>,
+        ]}
+      >
         <CompositePanel>
           <CompositePanel.Item title="Component" icon="Component">
             <ResourceWidget title="Display Elements" sources={[Text]} />
             <ResourceWidget
               title="Basic Fields"
-              sources={[Input, Password, NumberPicker, Radio, Checkbox, Select, Slider, Switch, DatePicker, TimePicker, Transfer, Upload, Rate, Cascader]}
+              sources={[
+                Input,
+                FullName,
+                Password,
+                NumberPicker,
+                Radio,
+                Checkbox,
+                Select,
+                Slider,
+                Switch,
+                DatePicker,
+                TimePicker,
+                Transfer,
+                Upload,
+                Rate,
+                Cascader,
+              ]}
             />
             <ResourceWidget
               title="Layout Fields"
-              sources={[Card, FormGrid, Space, FullName]}
+              sources={[Card, FormGrid, Space]}
             />
             <ResourceWidget
               title="Array Fields"
@@ -146,14 +174,24 @@ function App() {
                 use={['DESIGNABLE', 'JSONTREE', 'MARKUP', 'PREVIEW']}
               />
             </ToolbarPanel>
-            <ViewportPanel style={{ height: '100%', padding:'10px', width: "calc(100% - 100px)", maxWidth: "800px", margin: "10px auto" }}>
+            <ViewportPanel
+              style={{
+                height: '100%',
+                padding: '10px',
+                width: 'calc(100% - 100px)',
+                maxWidth: '800px',
+                margin: '10px auto',
+              }}
+            >
               <ViewPanel type="DESIGNABLE">
                 {() => <ComponentTreeWidget components={components} />}
               </ViewPanel>
               <ViewPanel type="JSONTREE">
                 {(tree) => (
                   <div>
-                    <pre>{JSON.stringify(transformToSchema(tree), null, 2)}</pre>
+                    <pre>
+                      {JSON.stringify(transformToSchema(tree), null, 2)}
+                    </pre>
                   </div>
                 )}
               </ViewPanel>
